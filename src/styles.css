@@ -25,11 +25,6 @@ li {
   list-style: none;
 }
 
-a {
-  margin: 20px auto;
-  padding: 15px;
-}
-
 .weather-app {
   border: 1px solid #dadde1;
   padding: 15px;
