@@ -33,6 +33,11 @@ li {
   max-width: 600px;
 }
 
+.weather-app-text {
+  margin: 0px auto;
+  max-width: 600px;
+}
+
 .temperature {
   color: rgb(33, 33, 33);
   font-size: 64px;
