@@ -20,6 +20,7 @@ function formatDate(timestamp) {
   ];
   let day = days[date.getDays()];
   return `${day} ${hours}:${minutes}`;
+}
 
 function displayTemperature(response) {
   let temperatureElement = document.querySelector("#temperature");
