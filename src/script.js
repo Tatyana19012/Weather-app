@@ -8,6 +8,7 @@ function formatDate(timestamp) {
   if (minutes < 10) {
     minutes = `0${minutes}`;
   }
+
   let days = [
     "Sunday",
     "Monday",
@@ -18,9 +19,7 @@ function formatDate(timestamp) {
     "Saturday",
   ];
   let day = days[date.getDays()];
-
   return `${day} ${hours}:${minutes}`;
-}
 
 function displayTemperature(response) {
   let temperatureElement = document.querySelector("#temperature");
